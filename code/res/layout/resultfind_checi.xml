@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@drawable/train_checi_result" 
+        >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            
+            android:id="@+id/viewname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:textColor="@color/train_result_textcloor"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/viewstart"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/train_result_textcloor"
+            android:text="" />
+
+        <ImageView
+            
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.69"
+            android:src="@drawable/d2" />
+
+        <TextView
+            android:id="@+id/viewend"
+           android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="" 
+             android:gravity="center"
+             android:textSize="30sp"
+             android:textColor="@color/train_result_textcloor"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/viewstarttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="" 
+            android:textSize="18sp"
+           android:textColor="@color/train_result_textcloor"
+            
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/viewendtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+           android:textColor="@color/train_result_textcloor"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/viewSmileage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="" 
+            android:textColor="@color/train_result_textcloor"
+            android:textSize="18sp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        
+        android:background="#a3e9c5"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/train_checi_xuhao" 
+             android:textSize="14sp"
+            android:layout_weight="0.5"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/chezhan"
+             android:textSize="14sp"
+            android:layout_weight="1" 
+            android:gravity="center"/>
+ 
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+             android:textSize="14sp"
+            android:text="@string/train_checi_fache"
+         
+            android:layout_weight="1" 
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/train_checi_daozhan"
+             android:layout_weight="1"
+              android:textSize="14sp"
+             android:gravity="center" />
+
+        <TextView
+            
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/train_checi_shichang"
+            android:layout_weight="1"
+            android:gravity="center"
+             android:textSize="14sp"
+         
+             />
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/train_checi_licheng"
+            android:layout_weight="1"
+             android:textSize="14sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/train_checi_list"
+        android:layout_marginTop="0dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

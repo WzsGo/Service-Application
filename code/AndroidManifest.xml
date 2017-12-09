@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wzs.mooc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wzs.start.AppStart"
+            android:label="指动生活" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wzs.mooc.LoginActivity" >
+        </activity>
+        <activity android:name="com.wzs.mooc.ConstantActivity" >
+        </activity>
+        <activity android:name="com.wzs.mooc.FindIDActivity" >
+        </activity>
+        <activity android:name="com.wzs.mooc.Result_Findtraincheci" >
+        </activity>
+        <activity android:name="com.wzs.mooc.Result_FindtrainPiaojia" >
+        </activity>
+        <activity android:name="com.wzs.mooc.Result_FindtrainYupiao" >
+        </activity>
+        <activity android:name="com.wzs.coach.Result_Coach_from_to" >
+        </activity>
+        <activity android:name="com.wzs.coach.Result_Coach_station_info" >
+        </activity>
+        <activity android:name="com.wzs.coach.FindCoachActivity" >
+        </activity>
+        <activity android:name="com.wzs.mooc.KuaidiFindcom_radio" >
+        </activity>
+        <activity android:name="com.wzs.mooc.FindTrainActivity" >
+        </activity>
+        <activity android:name="com.wzs.weizhang.WeizhangFindActivity" >
+        </activity>
+        <activity android:name="com.wzs.telchongzhi.TelChongzhiActivity" >
+        </activity>
+        <activity android:name="com.wzs.weather1.FindWeatherActivity" >
+        </activity>
+        <activity android:name="com.wzs.weather1.FindStrartActivity" >
+        </activity>
+        <activity android:name="com.wzs.weather.location.GetLocation" >
+        </activity>
+        <activity android:name="com.wzs.weather1.Result_leiyuActivity" >
+        </activity>
+        <activity android:name="com.wzs.weather1.Result_qingActivity" >
+        </activity>
+        <activity android:name="com.wzs.weather1.Result_yinActivity" >
+        </activity>
+        <activity android:name="com.wzs.weather1.Constant_weather" >
+        </activity>
+        <activity android:name="com.wzs.weather1.Result_yuActivity" >
+        </activity>
+        <activity android:name="com.wzs.mooc.KuaidiActivity" >
+        </activity>
+        <activity android:name="com.wzs.caipu.ResultCaipuActivity" >
+        </activity>
+        <activity android:name="com.wzs.caipu.ResultCaipu_ListviewresultActivity" >
+        </activity>
+        <activity android:name="com.demo.phonenumberactivity.MainActivity" >
+        </activity>
+        <activity android:name="com.demo.phonenumberactivity.PhoneNumberActivity" >
+        </activity>
+        <activity android:name="com.demo.phonenumberactivity.service.ConstantActivity" >
+        </activity>
+        <activity android:name="com.wzs.caipu.CaipuFindActivity" >
+        </activity>
+        <activity android:name="com.demo.translationactivity.TranslationActivity" >
+        </activity>
+        <activity android:name="com.wzs.mooc.Kuaidi_result" >
+        </activity>
+        <activity android:name="com.wzs.weizhang.WeizhangResultActivity" >
+        </activity>
+        <activity android:name="com.demo.xinhuaactivity.XinHuaActivity" >
+        </activity>
+        <activity android:name="com.wzs.start.Whatsnew" >
+        </activity>
+        <activity android:name="com.wzs.start.WhatsnewDoor" >
+        </activity>
+        <activity android:name="com.wzs.daohang.DaohangActivity" >
+        </activity>
+         <activity android:name="com.demo.phonenumberactivity.TestDialog" >
+        </activity>
+         <activity android:name="com.wzs.telchongzhi.delateActivity" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="3dp" 
+    android:background="@drawable/train_piaojia_item_yangshi"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp" >
+
+        <TextView
+            android:id="@+id/viewtrain_no"
+            android:layout_width="wrap_content"
+            android:layout_height="49dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="K1234"
+            android:layout_marginLeft="3dp"
+            android:textColor="#0000CD"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/viewstart_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10:00"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xx" />
+
+        <TextView
+            android:id="@+id/viewarrive_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12:00"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/viewlishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="03:00"
+            android:textColor="#0000CD"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dp" >
+
+        <TextView
+            android:id="@+id/viewtz_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="特等座  128"
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/viewswz_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="商务座 128 "
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/viewzy_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="一等座 128"
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/viewze_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="二等座 128"
+            android:textColor="#FF4040" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dp" >
+
+        <TextView
+            android:id="@+id/viewrw_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="软卧  128"
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/viewyw_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="硬卧  128"
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/viewyz_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="硬座  128"
+            android:textColor="#FF4040" />
+
+        <TextView
+            android:id="@+id/viewwz_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="无座  128"
+            android:textColor="#FF4040" />
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

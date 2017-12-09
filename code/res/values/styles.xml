@@ -1,0 +1,117 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- spinner -->
+    <style name="spinner_style">
+        <item name="android:background">@drawable/spinner_selector</item>
+        <item name="android:paddingLeft">5dip</item>
+    </style>
+    <!-- button -->
+    <style name="coach_button_style">
+        <item name="android:background">@drawable/coach_button_selector</item>
+    </style>
+    <!-- button -->
+    <style name="button_style">
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+    <!-- button -->
+    <style name="kuaidi_button_style">
+        <item name="android:background">@drawable/shapes_selector</item>
+    </style>
+    <!-- button -->
+    <style name="kuaidi_button1_style">
+        <item name="android:background">@drawable/button_kuaidi1_selector</item>
+    </style>
+    <!-- button -->
+    <style name="weather_style">
+        <item name="android:background">@drawable/weather_selector</item>
+    </style>
+    <!-- button -->
+    <style name="translation_style">
+        <item name="android:background">@drawable/translation_button_selection</item>
+    </style>
+    <!-- button -->
+    <style name="caipu_style">
+        <item name="android:background">@drawable/caipu_button_selector</item>
+    </style>
+    <!-- button -->
+    <style name="xinhua_stytle">
+        <item name="android:background">@drawable/xinhua_button_selector</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style1">
+        <item name="android:background">@drawable/daohang_button_selector1</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style2">
+        <item name="android:background">@drawable/daohang_button_selector2</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style3">
+        <item name="android:background">@drawable/daohang_button_selector3</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style4">
+        <item name="android:background">@drawable/daohang_button_selector4</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style5">
+        <item name="android:background">@drawable/daohang_button_selector5</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style6">
+        <item name="android:background">@drawable/daohang_button_selector6</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style7">
+        <item name="android:background">@drawable/daohang_button_selector7</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style8">
+        <item name="android:background">@drawable/daohang_button_selector8</item>
+    </style>
+    <!-- button -->
+    <style name="daohang_style9">
+        <item name="android:background">@drawable/daohang_button_selector9</item>
+    </style>
+    <!-- button -->
+    <style name="back_style">
+        <item name="android:background">@drawable/button_back_selector</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DialogText.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+  <!-- button -->
+    <style name="alterdialog_button_style">
+        <item name="android:background">@drawable/alterdialog_selector</item>
+    </style>
+</resources>

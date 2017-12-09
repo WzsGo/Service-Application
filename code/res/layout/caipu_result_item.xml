@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000" >
+
+    <ImageView
+        android:id="@+id/imgview_albums"
+        android:layout_width="103dp"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:src="@drawable/abc_ab_stacked_solid_light_holo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:text="红烧狮子头"
+            android:textColor="#EE9A00"
+            android:layout_marginTop="20dip"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="五花肉,500g"
+            android:textSize="12sp"
+            android:layout_marginLeft="20dip"
+            android:textColor="#999999"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/txtburden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+             android:textColor="#999999"
+             android:layout_marginLeft="20dip"
+            android:text="葱段,适量;八角,2个;干辣椒,4个;香叶,4片;桂皮,1块;鲜姜,1块;干山楂片,4片;黄油,适量;老抽,适量;生抽,适量;白糖,适量;开水,适量"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" 
+        android:background="@drawable/chongzhititle">
+         <Button
+            android:id="@+id/btn_chongzhi_back"          
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="#00ffffff"
+            style="@style/back_style"
+            android:text="" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="4dip"
+        android:src="@drawable/zhifubaoicon" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="#F7F7F7" >
+
+        <TextView
+            android:layout_width="95dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:text="@string/tel_chongzhi_num"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtphoneno"
+            android:layout_width="139dip"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dip"
+        android:background="#F7F7F7"
+        
+        android:layout_height="wrap_content" >   
+    <TextView
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_chongzhi_miane"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dip"
+        android:background="#F7F7F7"        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7"
+       
+        android:orientation="vertical">
+
+      
+            <RadioButton
+                android:id="@+id/radiotel_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:lines="2"
+                android:singleLine="false"
+                android:text="@string/tel_chongzhi_10" />
+
+            <RadioButton
+                android:id="@+id/radiotel_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tel_chongzhi_20" />
+
+            <RadioButton
+                android:id="@+id/radiotel_30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tel_chongzhi_30" />
+      
+
+       
+            <RadioButton
+                android:id="@+id/radiotel_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tel_chongzhi_50" />
+
+            <RadioButton
+                android:id="@+id/radiotel_100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tel_chongzhi_100" />
+
+            <RadioButton
+                android:id="@+id/radiotel_300"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tel_chongzhi_300" />
+       
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#F7F7F7"
+       
+        android:layout_height="wrap_content" >
+
+     
+        <TextView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shoujia"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dip"
+            android:textColor="#436EEE"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/viewinprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginLeft="10dip"
+            android:textColor="#436EEE"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/viewgame_area"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="0.57"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#436EEE"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:background="#F7F7F7"
+         android:layout_height="match_parent" 
+         android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btntelchongzhi"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+         style="@style/button_style"
+        android:gravity="center"
+              
+        android:text="@string/tel_chongzhi_chongzhi" />
+</LinearLayout>
+</LinearLayout>

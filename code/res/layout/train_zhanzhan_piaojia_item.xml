@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/train_piaojia_item_yangshi"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/viewtrain_no_piaojia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K3691"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#0000FF"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/viewtrain_type_piaojia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginTop="0.618dip"
+                android:text="快速"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FF3030" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/viewstart_time_piaojia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:10"
+                
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/viewarrive_time_piaojia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:20"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/viewrun_time_piaojia"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01:10"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/viewpia0jia1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="硬座 128"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/viewpiaoji2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一等座  128"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

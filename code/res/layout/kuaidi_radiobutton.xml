@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/kuaidiradio_title" >
+         <Button
+            android:id="@+id/btn_kuaidi_back"
+            
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="#00ffffff"
+            style="@style/back_style"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/kuaidiradio_beijing"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio_zto"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/zhongtong" />
+
+            <RadioButton
+                android:id="@+id/radio_sto"
+                android:layout_width="311dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/shentong" />
+
+            <RadioButton
+                android:id="@+id/radio_ht"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/huitong" />
+
+            <RadioButton
+                android:id="@+id/radio_yd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yunda" />
+
+            <RadioButton
+                android:id="@+id/radio_yt"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/yuantong" />
+
+            <RadioButton
+                android:id="@+id/radio_ems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ems" />
+
+            <RadioButton
+                android:id="@+id/radio_tt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiantian" />
+
+            <RadioButton
+                android:id="@+id/radio_sf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shunfeng" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/viewkuaidi_com_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dip"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#1C86EE" />
+
+        <Button
+            android:id="@+id/btnkuaid_save"
+            android:layout_width="180dp"
+            android:layout_height="44dip"
+            android:layout_marginLeft="63dip"
+            android:layout_marginTop="2dp"
+             style="@style/button_style"
+            android:text="@string/save"
+            android:textColor="#1C86EE" />
+    </LinearLayout>
+
+</LinearLayout>

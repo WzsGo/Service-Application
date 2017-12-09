@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/kuaidifind_title" >
+        <Button
+            android:id="@+id/btn_kuaidi_back"          
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="#00ffffff"
+            style="@style/back_style"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnkuaidifindcom"
+            style="@style/kuaidi_button1_style"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:text="@string/findkuaidicom"
+            android:width="290dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/viewkuaidi_com"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:background="@drawable/button_kuadi1"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtkuaidino"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:background="@drawable/shapes"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/danhao"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnkuaidifind"
+            style="@style/kuaidi_button_style"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:text="@string/find" />
+    </LinearLayout>
+
+</LinearLayout>

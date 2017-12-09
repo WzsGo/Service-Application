@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/trainfind_title" >
+        
+        <Button
+            android:id="@+id/btn_train_find_back"          
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="#00ffffff"
+            style="@style/back_style"
+            android:text="" />
+        
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@color/train_title_2"
+        
+        android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/train_title_2"
+             android:textColor="#ffffff"
+             android:layout_marginLeft="20dp"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"   
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtcheci"
+            android:layout_width="180dip"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/findchecihint"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnfinfcheci"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+           style="@style/button_style"
+            android:text="@string/find"
+            android:textColor="#1C86EE"
+            android:textSize="18sp" />
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/train_title_2"
+        
+        android:orientation="horizontal" >
+
+         <TextView
+             
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/train_title_3"
+             android:textColor="#ffffff"
+             android:layout_marginLeft="20dp"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtfrom"
+            android:layout_width="180dip"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/trainfrom_hint"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtto"
+            android:layout_width="180dip"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/trainto_hint"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/txtdate"
+            android:layout_width="180dip"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/datehint"
+            android:padding="5dip"
+            android:singleLine="true"
+            android:textColorHint="#AAAAAA" />
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"  >
+
+        <Button
+            android:id="@+id/btnfindpiaojia"
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            style="@style/button_style"
+            android:text="@string/findpiaojia"
+            android:textColor="#1C86EE"
+            android:textSize="18sp" />
+        <Button
+                android:id="@+id/btnfindyupiao"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                style="@style/button_style"
+                android:text="@string/findyupiao"
+                android:layout_marginLeft="20dp"
+                android:textColor="#1C86EE"
+                android:textSize="18sp" />
+         </LinearLayout>
+
+        
+    </LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    
+    android:orientation="vertical"
+     >
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical"   
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    
+    android:background="@drawable/kuaidi_item_2">
+    <TextView
+        android:id="@+id/item_kuaididatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                   
+        android:singleLine="false"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="" 
+        android:textColor="#CD3700"     
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/item_kuadiremark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 		
+        android:text=""
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#1874CD"
+        android:textSize="18sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />  
+</LinearLayout>
+</LinearLayout>

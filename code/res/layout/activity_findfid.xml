@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nm.ip.MainActivity$PlaceholderFragment" >
+
+    <EditText
+        android:id="@+id/txtipadress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:hint="@string/inputIPadress"
+        android:inputType="number"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtipadress"
+        android:layout_alignRight="@+id/txtipadress"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shapeshape"
+        android:text="@string/find"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/viewipresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnfind"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:height="50dp"
+        android:text=""
+        android:textSize="20sp"
+        android:width="400dp" />
+
+</RelativeLayout>

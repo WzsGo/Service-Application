@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+       android:id="@+id/xiangjie"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="又如:新板洋钱(指清代机铸的雕有龙形图案的银元);新发子硎(喻初入学的学生);新文(新闻;新鲜事儿;过分追求新奇的文章;时文)"
+       android:textSize="13sp"
+       android:textColor="#8B4513"
+       android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</LinearLayout>

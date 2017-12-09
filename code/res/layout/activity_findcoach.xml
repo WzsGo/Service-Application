@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF0"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/coach_title" >
+         <Button
+            android:id="@+id/btn_coachfind_back"
+            
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="#00ffffff"
+            style="@style/back_style"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/train_title_2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/chaxun"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/txtcoach_from"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/qishidi"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/txtcoach_to"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/mudidi"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/txtcoach_time"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/datehint"
+            android:inputType="date" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnfind_coach_from_to"
+            style="@style/coach_button_style"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/chaxun"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:width="200sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_coach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/train_title_2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/chezhanchaxun"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/txtcoach_station"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_edittext_focused"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/chengshi_hint"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnfind_coach_station_info"
+            style="@style/coach_button_style"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="@string/xinxichaxun"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

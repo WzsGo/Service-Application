@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/caipufind"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txtmenu"
+        android:layout_width="150dip"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="280dip"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#FFD700"
+        android:hint="@string/caipufind_hint"      
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnfindcaipu"
+        android:layout_width="150dip"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#FFD700"
+        style="@style/caipu_style"
+        android:text="@string/find" />
+
+</LinearLayout>
